@@ -1,0 +1,59 @@
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156588719-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-156588719-1');
+        var rootPath = "../../";
+    </script>
+    <link rel="stylesheet" href="../../HomePageStyle.css">
+</head>
+<body>
+    <table width="100%" valign="top" text-align="left" >
+        <tr> 
+            <td width="270" id="left" valign="top" text-align="left" >
+                <div id="topLeft"></div>
+                <div id="middleLeft"></div>
+            </td>
+            <td id="right">
+                <div id="topRight"></div>
+                <br><br>
+                <div id="middleRight" style="width:800; position:relative; background-color:silver; border:thin solid peru; border-radius: 5px;">
+                    <div style="margin: 20;">
+                        <div>
+                            <span class="titleText">To Do Or Not To Do</span>
+                            <span class="navigation">
+                                <nav>
+                                    <a href='index.html'>1</a>
+                                    <a href='index_1.html'>2</a>
+                                    <a href='index_2.html' style="font-size: larger;">3</a>
+                                    <a href='index_3.html'>4</a>
+                                </nav>
+                            </span>
+                        </div>
+                        <br/>One week earlier on January 31, 2020, US declared Public Health Emergency and closed boarders to all foreign nationals.  The situation in US started to become serious.  We might need to wear the face masks in near future, and we might need more face masks ourselves.  I asked myself “Should I send these face masks or not?”  This was also the question coming up during various discussions.  “To Do or Not To Do” – I decided to do it.
+                        <br/><br/>Next day on February 10, 2020, I went to the Postal Office and I was told that there is no guarantee on when the package would arrive.  I still decided to do it.  Hence, I spent whole morning in the Post Office to fill different forms and to pack the boxes.  Trust me, it was a big deal to get all three boxes correct and I did spend 4 hours to do this.  With a lot of sweat too.
+                        <br/><br/>
+                        <img class="modalImgSmall" src="ToDoNotToDoImage3.jpeg" style="width:100%;max-width:200px" onclick="modalImgClick(this);">
+                        <img class="modalImgSmall" src="ToDoNotToDoImage4.jpg" style="width:100%;max-width:200px" onclick="modalImgClick(this);">
+                        <br/><br/>One embarrassing thing was that US Custom required the English version of the recipient’s information, name, address etc.  I am not good at Chinese phonetic alphabet, so I made a lot of mistakes.
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <span class="close" onclick="modalCloseClick();">&times;</span>
+                        <img class="modal-content" id="img01" >
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="../../HomePage.js"></script>
+</body>
+</html>
+
+

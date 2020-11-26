@@ -1,20 +1,72 @@
 <html>
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156588719-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-156588719-1');
-</script>
-
-  </head>
-  <body>
-    <include src="./LeftSide.html"></include>
-    hello, world!  This is from Sue
-  </body>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156588719-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'UA-156588719-1');
+    var rootPath = "";
+  </script>
+  <link rel="stylesheet" href="HomePageStyle.css">
+</head>
+<body>
+  <table width="100%" valign="top" text-align="left" >
+    <tr>
+      <td width="270" id="left" valign="top" text-align="left" >
+        <div id="topLeft"></div>
+        <div id="middleLeft"></div>
+      </td>
+      <td id="right">
+        <div id="topRight"></div>
+        <br><br>
+        <div id="middleRight" style="width:800; position:relative;">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <div class="imagedisplay"><img src="Image1.jpg" class="flipImage"></div>
+              <div class="text">Lake Crescent, WA</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <div class="imagedisplay"><img src="Image2.jpg" class="flipImage"></div>
+              <div class="text">Curlew Lake, WA</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <div class="imagedisplay"><img src="Image3.jpg" class="flipImage"></div>
+              <div class="text">Moses Lake, WA</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 4</div>
+              <div class="imagedisplay"><img src="Image4.jpg" class="flipImage"></div>
+              <div class="text">Mountain Rainier, WA</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+          </div>
+          <br>
+          
+          <div style="text-align:center;">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+          </div>
+        </div>
+      </div>
+      </td>
+    </tr>
+  </table>
+  <script src="HomePage.js"></script>
+</body>
 </html>
 
 
