@@ -2,7 +2,7 @@ var middleRightText = "<p><a href='" + rootPath + "2020/ToDoNotToDo/index.html'>
 "<p><a href='" + rootPath + "2020/Neowise/index.html'>Neowise</a></p>" ;
 
 document.getElementById("topLeft").innerHTML = "<a href='" + rootPath + "index.html'><img src='" + rootPath + "SueZhuSmall.gif' width='213' height='120'></a>";
-document.getElementById("topRight").innerHTML = "<b><i><a href='mailto:suezhu@yahoo.com'>Email Me</a></i></b>";
+document.getElementById("topRight").innerHTML = "<b><i><a href='mailto:admin@suezhu.com'>Email Me</a></i></b>";
 document.getElementById("middleLeft").innerHTML = middleRightText;
 //document.getElementById("middleRight").innerHTML = "<img src='IMG_0306.jpg' alt='I am Sue Zhu' width='324' height='403'>";
 
