@@ -1,5 +1,15 @@
-var middleRightText = "<br/><div><b><a href='" + rootPath + "2020/ToDoNotToDo/index.html'>To Do Or Not To Do</a></b></div>" + 
-"<div><b><a href='" + rootPath + "2020/Neowise/index.html'>Neowise</a></b></div>" ;
+var middleRightTextPost = "<br/><div><b><a href='" + rootPath + "MyPosts/index.html'>My Posts</a></b></div>";
+var middleRightTextPostDetails;
+var middleRightText = 
+    "<br/><div><b><a href='" + rootPath + "2020/ToDoNotToDo/index.html'>To Do Or Not To Do</a></b></div>" + 
+    "<div><b><a href='" + rootPath + "2020/Neowise/index.html'>Neowise</a></b></div>" ;
+
+if (middleRightTextPostDetails==null) {
+    middleRightText = middleRightTextPost + middleRightText;
+}
+else {
+    middleRightText = middleRightTextPostDetails + middleRightText;
+}  
 
 document.getElementById("topLeft").innerHTML = "<a href='" + rootPath + "index.html'><img src='" + rootPath + "SueZhuSmall.gif' width='213' height='120'></a>";
 document.getElementById("topRight").innerHTML = "<b><i><a href='mailto:admin@suezhu.com'>Email Me</a></i></b>";
