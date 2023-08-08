@@ -1,7 +1,8 @@
 var PostList = [
-    ["20230715/20230715.html", "July 15, 2023", "July 15, 2023 - GO PNW 2023 Summit, OR", "20230715/20230715c.html"],
-    ["20230706/20230706.html", "July 6, 2023", "July 6, 2023 - Lassen National Park, CA", "20230706/20230706c.html"],
+    ["20230715/20230715.html", "July 15, 2023", "July 15, 2023 - Camping with GO PNW 2023 Summit, OR", "20230715/20230715c.html"],
+    ["20230706/20230706.html", "July 6, 2023", "July 6, 2023 - Camping at Lassen National Park, CA", "20230706/20230706c.html"],
     ["20230619/20230619.html", "June 19, 2023", "June 19, 2023 - Seattle Summer Release, WA", "20230619/20230619c.html"],
+    ["20230530/20230530.html", "May 30, 2023", "May 30, 2023 - Camping at Bruneau Dunes State Park, ID", "20230530/20230530c.html"],
     ];
 
 var middleRightTextPostList = "";
