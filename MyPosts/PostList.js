@@ -3,6 +3,8 @@ var PostList = [
     ["20230706/20230706.html", "July 6, 2023", "July 6, 2023 - Camping at Lassen National Park, CA", "20230706/20230706c.html"],
     ["20230619/20230619.html", "June 19, 2023", "June 19, 2023 - Seattle Summer Release, WA", "20230619/20230619c.html"],
     ["20230530/20230530.html", "May 30, 2023", "May 30, 2023 - Camping at Bruneau Dunes State Park, ID", "20230530/20230530c.html"],
+    ["20230507/20230507.html", "May 7, 2023", "May 7, 2023 - Camping at Sol Duc Hot Spring, WA", "20230507/20230507c.html"],
+    ["20230423/20230423.html", "April 23, 2023", "April 23, 2023 - Camping at Le Page Park, OR", "20230423/20230423c.html"],
     ];
 
 var middleRightTextPostList = "";
