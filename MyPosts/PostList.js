@@ -8,6 +8,8 @@ var PostList = [
     ["20230409/20230409.html", "April 9, 2023", "April 9, 2023 - Camping at Battle Ground Lake, WA", "20230409/20230409c.html"],
     ["20230401/20230401.html", "April 1, 2023", "April 1, 2023 - April Fool Seattle, WA", "20230401/20230401c.html"],
     ["20230224/20230224.html", "February 24, 2023", "February 24, 2023 - Skiing at Granby, CO", "20230224/20230224c.html"],
+    ["20230128/20230128.html", "January 28, 2023", "January 28, 2023 - Skiing at Stevens, WA", "20230128/20230128c.html"],
+    ["20230101/20230101.html", "January 1, 2023", "January 1, 2023 - Skiing at Lake Tahoe, NV", "20230101/20230101c.html"],
     ];
 
 var middleRightTextPostList = "";
