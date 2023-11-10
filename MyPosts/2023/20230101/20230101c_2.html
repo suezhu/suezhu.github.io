@@ -1,0 +1,76 @@
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156588719-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-156588719-1');
+        var rootPath = "../../../";
+        var FolderName = "2023";
+        var PageName = "2023/20230224/20230224.html"
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script charset="utf-8" src="../../PostList.js"></script>
+    <link rel="stylesheet" href="../../../HomePageStyle.css">
+</head>
+<body>
+    <table width="100%" valign="top" text-align="left" >
+        <tr> 
+            <td width="270" id="left" valign="top" text-align="left" >
+                <div id="topLeft"></div>
+                <div id="middleLeft"></div>
+            </td>
+            <td id="right">
+                <div id="topRight"></div>
+                <br><br>
+                <div id="middleRight" style="width:800; position:relative; background-color: rgb(231, 233, 250); border:thin solid peru; border-radius: 5px;">
+                    <div style="margin: 20;">
+                        <div>
+                            <span class="titleText">Skiing at Lake Tahoe, NV</span>
+                            <span class="navigation">
+                                <nav>
+                                    <a href='20230101c.html'>1</a>
+                                    <a href='20230101c_1.html'>2</a>
+                                    <a href='20230101c_2.html' style="font-size: larger;">3</a>
+                                    <a href='20230101c_3.html'>4</a>
+                                    <a href='20230101c_4.html'>5</a>
+                                    <a href='20230101c_5.html'>6</a>
+                                    <a href='20230101c_6.html'>7</a>
+                                    <a href='20230101c_7.html'>8</a>
+                                </nav>
+                            </span>
+                        </div>
+                        <br/><br/>12/28 - 12/29/2022 - Downhill Ski Lift
+                        <br/><br/>
+                        <img class="modalImgSmall" src="20230101p_8.jpg" style="width:100%;max-width:200px" onclick="modalImgClick(this);"> 
+                        <br/><br/>
+                        <br/><br/>最不一样的就是我们坐着lift下来，我们从来都是滑下来，这是第一次坐下来！景色优美但就是感觉怕怕的，赶紧把前面挡板放下来. 
+                        <br/><br/>
+                        <video controls="controls" width="750" height="420" name="LakeTahoeSki">
+                            <source src="20230101p_9.mp4">
+                        </video>
+                        <br/><br/>
+                        <div style="text-align:center;">
+                            <a href='20230101c_1.html'>Previous</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href='20230101c_3.html'>Next</a>
+                        </div>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <span class="close" onclick="modalCloseClick();">&times;</span>
+                        <img class="modal-content" id="img01" >
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script>document.getElementById("PostListDetail").innerHTML = middleRightTextPostListDetail;</script>
+    <script charset="utf-8" src="../../../HomePage.js"></script>
+</body>
+</html>
+
+
