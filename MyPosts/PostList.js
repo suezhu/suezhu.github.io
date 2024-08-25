@@ -18,7 +18,15 @@ var PostList = [
     ["2022/20221224/20221224.html", "December 24, 2022", "December 24, 2022 - Christmas at San Francisco, CA", "2022/20221224/20221224c.html", "2022"],
     ["2022/20221204/20221204.html", "December 4, 2022", "December 4, 2022 - Christmas Tree at Home, WA", "2022/20221204/20221204c.html", "2022"],
     ["2022/20221124/20221124.html", "November 24, 2022", "November 24, 2022 - Thanskgiving at Home, WA", "2022/20221124/20221124c.html", "2022"],
-     ];
+    ["2022/20221122/20221122.html", "November 22, 2022", "November 22, 2022 - Happy Anniversary at Home, WA", "2022/20221122/20221122c.html", "2022"],
+    ["2022/20221025/20221025.html", "October 25, 2022", "October 25, 2022 - Interesting News", "2022/20221025/20221025c.html", "2022"],
+    ["2022/20221017/20221017.html", "October 17, 2022", "October 17, 2022 - Seattle to San Francisco", "2022/20221017/20221017c.html", "2022"],
+    ["2022/20221002/20221002.html", "October 2, 2022", "October 2, 2022 - Crabbing at Westport, WA", "2022/20221002/20221002c.html", "2022"],
+    ["2022/20220917/20220917.html", "September 17, 2022", "September 17, 2022 - Sand Dunes, OR", "2022/20220917/20220917c.html", "2022"],
+    ["2022/20220911/20220911.html", "September 11, 2022", "September 11, 2022 - Wild Fire around home, WA", "2022/20220911/20220911c.html", "2022"],
+    ["2022/20220906/20220906.html", "September 6, 2022", "September 6, 2022 - Camping at Craters of the Moon, ID", "2022/20220906/20220906c.html", "2022"],
+    ["2022/20220828/20220828.html", "August 28, 2022", "August 28, 2022 - Camping at Mt. Adams, WA", "2022/20220828/20220828c.html", "2022"],
+];
 
 var middleRightTextPostList = "";
 var middleRightTextPostListDetail = "";
