@@ -115,5 +115,7 @@ for(var j = 0; j < FolderList.length; j++) {
             }
         }
     }
-}       
+}
+     
 var middleRightTextPostDetails = "<br/><div><b><a href='" + rootPath + "MyPosts/index.html'>My Posts</a></b></div>" + middleRightTextPostList;
+
