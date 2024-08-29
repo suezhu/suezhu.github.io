@@ -2,6 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#middleLeft{
+  height: 400px;
+  overflow:auto;
+}
+
 img {
     vertical-align: middle;
     text-align: center;

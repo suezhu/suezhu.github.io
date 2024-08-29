@@ -17,6 +17,10 @@ document.getElementById("middleLeft").innerHTML = middleRightText;
 //document.getElementById("middleRight").innerHTML = "<img src='IMG_0306.jpg' alt='I am Sue Zhu' width='324' height='403'>";
 
 
+window.onload = function() {
+    document.getElementById('divhighlighted').scrollIntoView(false);
+  } 
+
 
 //Slide Show Functions
 var slideIndex = 1;
