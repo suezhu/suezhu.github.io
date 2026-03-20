@@ -12,6 +12,8 @@ var FolderList = [
      ];
     
 var PostList = [
+    ["2023/20230906/20230906.html", "September 6, 2023", "September 6, 2023 - Yosemite, CA", "2023/20230906/20230906c.html", "2023"],
+    ["2023/20230827/20230827.html", "August 27, 2023", "August 27, 2023 - Seattle, WA", "2023/20230827/20230827c.html", "2023"],
     ["2023/20230820/20230820.html", "August 20, 2023", "August 20, 2023 - Bogachiel State Park, WA", "2023/20230820/20230820c.html", "2023"],
     ["2023/20230813/20230813.html", "August 13, 2023", "August 13, 2023 - Conconully State Park, WA", "2023/20230813/20230813c.html", "2023"],
     ["2023/20230730/20230730.html", "July 30, 2023", "July 30, 2023 - WeatPort, WA", "2023/20230730/20230730c.html", "2023"],
